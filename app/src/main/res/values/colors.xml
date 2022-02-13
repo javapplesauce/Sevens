@@ -7,4 +7,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="bounty">#4BBCF4</color>
+    <clor name="sea_green">#61C0BF</clor>
+    <clor name="oceana">#BBDED6</clor>
+    <clor name="rosada">#FFB6B9</clor>
+    <clor name="pink_salt">#FAE3D9</clor>
 </resources>
