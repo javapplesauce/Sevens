@@ -2,5 +2,7 @@
 
     <string name="app_name">Sevens</string>
     <string name="title">sevens</string>
+    <string name="go_to_main_activity">go to main actvitiy</string>
+    <string name="go_to_second_activity">go to second activity</string>
 
 </resources>
