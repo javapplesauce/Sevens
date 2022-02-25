@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/goButton"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#333333"
@@ -38,16 +39,16 @@
         android:layout_height="49dp"
         android:adjustViewBounds="true"
         android:background="@null"
+        android:contentDescription="@string/mainPageButton"
         android:maxWidth="50dp"
         android:maxHeight="50dp"
-        android:onClick="sendMessage"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
         app:srcCompat="@drawable/mainpage_play_button"
-        tools:ignore="MissingConstraints"
+        tools:ignore="DuplicateIds,MissingConstraints"
         tools:srcCompat="@drawable/mainpage_play_button" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
